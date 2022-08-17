@@ -38,7 +38,8 @@
 
 
     .slide {
-        /* margin-top: 300px; */
+        
+        margin-top: 80px;
         height: 340px;
         left: 0px;
         background: #E1E1E1;
@@ -52,10 +53,10 @@
     h2 {
         font-family: 'Montserrat';
         font-style: normal;
-
         font-size: 28px;
         line-height: 59px;
         color: #000000;
+
     }
 
     p {
@@ -69,11 +70,16 @@
         font-size: 15px;
         line-height: 130%;
         color: #404040;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
     }
 
     .swiper-pagination {
         text-align: center;
-        top: 270px;
+        top: 240px;
     }
 
 
@@ -163,7 +169,7 @@
 
     .text {
         height: 48px;
-        width: 350px;
+        width: 300px;
     }
 
     hr {
@@ -184,8 +190,12 @@
         text-align: center;
     }
 
-    .middle-list{
+    .middle-list {
         margin-top: 17px;
+    }
+
+    .middle-list-color {
+        margin-top: 15px;
     }
 
 

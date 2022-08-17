@@ -2,22 +2,31 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .wraper {
   width: 100%;
 }
 
 .container {
   max-width: 1194px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
-
+.myHeader{
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 100;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .header {
   min-height: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
   background: #FFFFFF;
 }
 
